@@ -357,6 +357,7 @@
     <ClCompile Include="..\..\xbmc\filesystem\SpecialProtocol.cpp" />
     <ClCompile Include="..\..\xbmc\filesystem\SpecialProtocolDirectory.cpp" />
     <ClCompile Include="..\..\xbmc\filesystem\SpecialProtocolFile.cpp" />
+    <ClCompile Include="..\..\xbmc\filesystem\SqueezeDirectory.cpp" />
     <ClCompile Include="..\..\xbmc\filesystem\StackDirectory.cpp" />
     <ClCompile Include="..\..\xbmc\filesystem\test\TestDirectory.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -853,6 +854,7 @@
     <ClInclude Include="..\..\xbmc\filesystem\DAVFile.h" />
     <ClInclude Include="..\..\xbmc\filesystem\ImageFile.h" />
     <ClInclude Include="..\..\xbmc\filesystem\MusicDatabaseDirectory\DirectoryNodeGrouped.h" />
+    <ClInclude Include="..\..\xbmc\filesystem\SqueezeDirectory.h" />
     <ClInclude Include="..\..\xbmc\filesystem\VideoDatabaseDirectory\DirectoryNodeGrouped.h" />
     <ClInclude Include="..\..\xbmc\filesystem\win32\Win32Directory.h" />
     <ClInclude Include="..\..\xbmc\filesystem\win32\Win32SMBDirectory.h" />
